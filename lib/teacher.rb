@@ -4,8 +4,8 @@ class Teacher
 
   attr_accessor :first_name, :last_name
 
-  def teach 
+  def teach
     KNOWLEDGE.sample
-  end 
+  end
 
 end
